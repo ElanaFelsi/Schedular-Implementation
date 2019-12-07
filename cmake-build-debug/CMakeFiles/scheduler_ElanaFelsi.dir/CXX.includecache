@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp
+iostream
+-
+cstdio
+-
+scheduler.h
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.h
+
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.h
+task.h
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/task.h
+queue
+-
+
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/task.h
+iostream
+-
+time.h
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/time.h
+
+/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/time.h
+
