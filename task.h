@@ -13,13 +13,13 @@ struct ITask
 
 struct Task : ITask
 {
-    explicit Task(unsigned long rt);
+    explicit Task(Time rt);
 
     virtual void run(){ std::cout << "Task " << m_taskId << " | rt left: " << m_runTime << std::endl; }
 
     virtual unsigned long getNextRunPeriod();
 
-    unsigned long m_runTime;
+    Time m_runTime;
 
     static int ID;
     int m_taskId;
@@ -30,10 +30,10 @@ inline int Task::ID = 0;
 
 inline unsigned long Task::getNextRunPeriod()
 {
-    return m_runTime;
+    return 0;
 }
 
-inline Task::Task(unsigned long rt): m_runTime(rt), m_taskId(ID++){}
+inline Task::Task(Time rt): m_runTime(rt), m_taskId(ID++){}
 
 
 #endif //SCHEDULER_ELANAFELSI_TASK_H

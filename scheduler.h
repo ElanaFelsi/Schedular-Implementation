@@ -7,7 +7,7 @@
 class Scheduler
 {
 public:
-    explicit Scheduler(unsigned long tq);
+    explicit Scheduler(Time tq);
 
     void addTask(Task& task);
 
@@ -15,14 +15,14 @@ public:
 
 private:
     std::queue<Task*> m_tasks;
-    unsigned long m_timeQuantum; /* in milliseconds */
+    Time m_timeQuantum; /* in milliseconds */
 };
 
 inline void Scheduler::addTask(Task &task) {
     m_tasks.push(&task);
 }
 
-inline Scheduler::Scheduler(unsigned long tq):m_timeQuantum(tq){}
+inline Scheduler::Scheduler(Time tq):m_timeQuantum(tq){}
 
 
 

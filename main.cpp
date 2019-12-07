@@ -4,12 +4,12 @@
 
 int main()
 {
-    Scheduler scheduler(2);
-    Task task0(3);
-    Task task1(2);
-    Task task2(5);
-    Task task3(6);
-    Task task4(1);
+    Scheduler scheduler(Time(2));
+    Task task0(Time(3));
+    Task task1(Time(2));
+    Task task2(Time(5));
+    Task task3(Time(6));
+    Task task4(Time(1));
 
     scheduler.addTask(task0);
     scheduler.addTask(task1);

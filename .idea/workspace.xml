@@ -11,7 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5840918-e596-4b82-95c1-04fe368257c3" name="Default Changelist" comment="" />
+    <list default="true" id="e5840918-e596-4b82-95c1-04fe368257c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler.h" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.h" beforeDir="false" afterPath="$PROJECT_DIR$/task.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.h" beforeDir="false" afterPath="$PROJECT_DIR$/time.h" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
   </component>
   <component name="ProjectId" id="1Ubv8LV2PFM1iw9SC4K3GdgFhUA" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -68,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575637948840</updated>
-      <workItem from="1575637950865" duration="4592000" />
+      <workItem from="1575637950865" duration="8918000" />
     </task>
     <servers />
   </component>
@@ -85,5 +91,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
