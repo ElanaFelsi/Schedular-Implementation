@@ -59,10 +59,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi
+CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug
+CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/scheduler_ElanaFelsi.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-
 CMakeFiles/scheduler_ElanaFelsi.dir/all:
 	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/depend
 	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target scheduler_ElanaFelsi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target scheduler_ElanaFelsi"
 .PHONY : CMakeFiles/scheduler_ElanaFelsi.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/scheduler_ElanaFelsi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scheduler_ElanaFelsi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/scheduler_ElanaFelsi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/scheduler_ElanaFelsi.dir/rule
 
 # Convenience name for target.

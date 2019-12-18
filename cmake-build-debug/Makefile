@@ -48,10 +48,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi
+CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug
+CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-scheduler.o: scheduler.cpp.o
-
-.PHONY : scheduler.o
-
-# target to build an object file
-scheduler.cpp.o:
-	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o
-.PHONY : scheduler.cpp.o
-
-scheduler.i: scheduler.cpp.i
-
-.PHONY : scheduler.i
-
-# target to preprocess a source file
-scheduler.cpp.i:
-	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.i
-.PHONY : scheduler.cpp.i
-
-scheduler.s: scheduler.cpp.s
-
-.PHONY : scheduler.s
-
-# target to generate assembly for a file
-scheduler.cpp.s:
-	$(MAKE) -f CMakeFiles/scheduler_ElanaFelsi.dir/build.make CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.s
-.PHONY : scheduler.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... scheduler.o"
-	@echo "... scheduler.i"
-	@echo "... scheduler.s"
 .PHONY : help
 
 

@@ -6,8 +6,3 @@ CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o: ../scheduler.h
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o: ../task.h
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o: ../time.h
 
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: ../scheduler.cpp
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: ../scheduler.h
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: ../task.h
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: ../time.h
-

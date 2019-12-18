@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi
+CMAKE_SOURCE_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug
+CMAKE_BINARY_DIR = /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scheduler_ElanaFelsi.dir/depend.make
@@ -59,43 +59,28 @@ include CMakeFiles/scheduler_ElanaFelsi.dir/flags.make
 
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o: CMakeFiles/scheduler_ElanaFelsi.dir/flags.make
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o -c /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o -c /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/main.cpp
 
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp > CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/main.cpp > CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.i
 
 CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp -o CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.s
-
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: CMakeFiles/scheduler_ElanaFelsi.dir/flags.make
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o: ../scheduler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o -c /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.cpp
-
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.cpp > CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.i
-
-CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.cpp -o CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/main.cpp -o CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.s
 
 # Object files for target scheduler_ElanaFelsi
 scheduler_ElanaFelsi_OBJECTS = \
-"CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o" \
-"CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o"
+"CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o"
 
 # External object files for target scheduler_ElanaFelsi
 scheduler_ElanaFelsi_EXTERNAL_OBJECTS =
 
 scheduler_ElanaFelsi: CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o
-scheduler_ElanaFelsi: CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o
 scheduler_ElanaFelsi: CMakeFiles/scheduler_ElanaFelsi.dir/build.make
 scheduler_ElanaFelsi: CMakeFiles/scheduler_ElanaFelsi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable scheduler_ElanaFelsi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable scheduler_ElanaFelsi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scheduler_ElanaFelsi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/scheduler_ElanaFelsi.dir/clean:
 .PHONY : CMakeFiles/scheduler_ElanaFelsi.dir/clean
 
 CMakeFiles/scheduler_ElanaFelsi.dir/depend:
-	cd /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug /home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/scheduler_ElanaFelsi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug /home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/scheduler_ElanaFelsi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/scheduler_ElanaFelsi.dir/depend
 

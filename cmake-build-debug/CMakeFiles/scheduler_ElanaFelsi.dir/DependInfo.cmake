@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp" "/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o"
-  "/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.cpp" "/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/scheduler_ElanaFelsi.dir/scheduler.cpp.o"
+  "/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/main.cpp" "/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/CMakeFiles/scheduler_ElanaFelsi.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug"/>
+				<Option working_dir="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug"/>
+				<Option working_dir="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="scheduler_ElanaFelsi">
-				<Option output="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/scheduler_ElanaFelsi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug"/>
+				<Option output="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/scheduler_ElanaFelsi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 scheduler_ElanaFelsi"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 scheduler_ElanaFelsi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="scheduler_ElanaFelsi/fast">
-				<Option output="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/scheduler_ElanaFelsi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug"/>
+				<Option output="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/scheduler_ElanaFelsi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,39 +67,36 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 scheduler_ElanaFelsi/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 scheduler_ElanaFelsi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug"/>
+				<Option working_dir="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/main.cpp">
+		<Unit filename="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/main.cpp">
 			<Option target="scheduler_ElanaFelsi"/>
 		</Unit>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.cpp">
+		<Unit filename="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/scheduler.h">
 			<Option target="scheduler_ElanaFelsi"/>
 		</Unit>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/scheduler.h">
+		<Unit filename="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/task.h">
 			<Option target="scheduler_ElanaFelsi"/>
 		</Unit>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/task.h">
+		<Unit filename="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/time.h">
 			<Option target="scheduler_ElanaFelsi"/>
 		</Unit>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/time.h">
-			<Option target="scheduler_ElanaFelsi"/>
-		</Unit>
-		<Unit filename="/home/elana/BootCamp-HW/cpp/scheduler-ElanaFelsi/CMakeLists.txt">
+		<Unit filename="/home/elana/BootCamp-HW/OS/scheduler-ElanaFelsi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

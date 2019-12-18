@@ -1,52 +1,58 @@
 #ifndef SCHEDULER_ELANAFELSI_TIME_H
 #define SCHEDULER_ELANAFELSI_TIME_H
 
+#include <iostream>
+#include <ctime>
 
 class Time
 {
 public:
-    explicit Time(unsigned long t);
+    explicit Time(unsigned long time = 0);
+
     void now();
-    bool operator<=(Time &time);
-    bool operator<(Time &time);
-    bool operator>=(Time &time);
-    bool operator>(Time &time);
+
+    bool operator<=(const Time &time);
+    bool operator<(const Time &time);
+    bool operator>=(const Time &time);
+    bool operator>(const Time &time);
+
     friend std::ostream &operator<<(std::ostream & out, const Time &time);
 
-    Time&operator-=(Time &time);
-    /*Timeoperator+(Time &time);*/
+    unsigned long operator-(const Time &other) const;
+    unsigned long operator+(unsigned long interval) const;
 
+    unsigned long GetTimeInMill() const;
 private:
     unsigned long m_time;
+
+    unsigned long GetTickCount() const;
 };
+
+inline Time::Time(unsigned long time) :m_time(time){}
 
 inline void Time::now()
 {
-    time_t t = time(NULL);
-    ctime(&t);
+    m_time = GetTickCount();
 }
 
-inline bool Time::operator<=(Time &time)
+inline bool Time::operator<=(const Time &time)
 {
-    return (m_time <= time.m_time);
+    return m_time <= time.GetTimeInMill();
+
 }
 
-inline bool Time::operator<(Time &time) {
-    return (m_time < time.m_time);
+inline bool Time::operator<(const Time &time) {
+    return m_time < time.GetTimeInMill();
 }
 
-inline bool Time::operator>=(Time &time) {
-    return (m_time >= time.m_time);
+inline bool Time::operator>=(const Time &time) {
+    return m_time >= time.GetTimeInMill();
 }
 
-inline bool Time::operator>(Time &time) {
-    return (m_time > time.m_time);
+inline bool Time::operator>(const Time &time) {
+    return m_time > time.GetTimeInMill();
 }
 
-inline Time &Time::operator-=(Time &time) {
-    m_time -= time.m_time;
-    return *this;
-}
 
 inline std::ostream &operator<<(std::ostream &out, const Time &time)
 {
@@ -54,6 +60,28 @@ inline std::ostream &operator<<(std::ostream &out, const Time &time)
     return out;
 }
 
-inline Time::Time(unsigned long t) :m_time(t){}
+unsigned long Time::GetTickCount() const {
+    struct timespec  now = {0};
+
+    if(clock_gettime(CLOCK_MONOTONIC, &now))
+    {
+        return 0;
+    }
+
+    return static_cast<unsigned long>(now.tv_sec * 1000 + now.tv_nsec / 1000000);
+}
+
+inline unsigned long Time::GetTimeInMill() const {
+    return m_time;
+}
+
+unsigned long Time::operator-(const Time &other) const {
+    return m_time - other.GetTimeInMill();
+}
+
+unsigned long Time::operator+(unsigned long interval) const {
+    return m_time + interval;
+}
+
 
 #endif //SCHEDULER_ELANAFELSI_TIME_H
